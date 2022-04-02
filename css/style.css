@@ -1,0 +1,367 @@
+/*-------downloded font---------*/
+@font-face {
+    font-family: font-download;
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: font-download;
+}
+
+/* body*/
+
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/*  topbar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    /*flote use karvi etle parent div ne over flow auto apvi etle bey same position ma avijay upar niche no ave*/
+}
+#social-icon{
+    float: right;
+}
+#tallfree{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+}
+.fab{
+  background-color:#fdfdfd;
+  color: #576574;
+  padding: 7px;
+  border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+.fa-whatsapp{
+    padding: 7px 8px;
+}
+.fa-instagram{
+    padding: 7px 8px;
+}
+ 
+/*  logo bar */
+
+#logobar img{
+    width: 200px;
+    margin: 25px 0;
+    border: 1px solid black;
+}
+/* nav bar   */
+
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul li {
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.burger {
+    position: absolute;
+    display: none  ;
+    top: 220px;
+    left: 8px;
+    background: transparent;
+    border: 0;
+    color: #000;
+    font-size: 24px;
+}
+#nav-ul.show{
+    display: block;
+    
+}
+
+/*    poster   */
+#poster{
+    background-image: url(../images/banner.jpg);
+    background-image: linear-gradient(180deg, #00000090, transparent), url(../images/banner.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+#poster h1{
+    font-size: 50px;
+
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+/* why us*/
+
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-heading{
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 10px 50px 0px 50px ;
+    box-sizing: border-box; /* jyare width apeli hoy ema padding add karva mate box sizing lagavu pade enathi width ma padding add kari sakay*/
+}
+.section33 h2{
+    color: #ee5253;
+}
+.section33 p{
+    color: #363636;
+}
+
+/*-contact section-*/
+
+#contact-container{
+    background-color: #ee5253;
+    color: #fff;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+}
+#contact-btn{
+    background-color: #fff;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*  blog  */
+
+.section33 img{
+    max-width: 100%;
+}
+.section33 a{
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: font-download;
+    border-bottom: 1px solid #576574;
+    display:inline-block;
+}
+
+/* subscribe section*/
+#subscribe-section{
+    background-color: #ee5253;
+    color: #fff;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 100px;
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 9px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0px;
+
+
+}
+
+
+
+/*     footer    */
+
+#imp-link{
+    background-color: #576574;
+    color: #fff;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px 25px 0;
+    box-sizing: border-box;
+}
+.div33 h3 {
+    text-decoration: underline;
+    text-underline-offset : 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom: 8px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-menu-container{
+    padding-left:100px ;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align:center ;
+    color: #cbcbcb;
+    padding: 10px;
+}
+
+/*---------responsive medium devices */
+@media only screen and (max-width:992px){
+    .footer-menu-container{
+        padding-left: 0;
+    }
+
+}
+/*---------responsive ipad */
+@media only screen and (max-width:768px){
+    #logobar{
+        text-align: center;
+    }
+    #navbar ul li {
+        padding-right: 20px;
+        display: block;
+    }
+    header{
+        position: relative;
+    }
+    #navbar{
+        position: absolute;
+        width:100%;
+        top: 253px;
+        
+    } 
+    .burger {
+        position: absolute;
+        display: block;
+        top: 206px;
+        left: 0px;
+        background: #ee5253;
+        border: 0;
+        color: #000;
+        font-size: 24px;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    #nav-ul {
+        display: none;
+    }
+    
+    .section70 {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    .section33{
+        width: 100%;
+    }
+    .footer-menu-container {
+         padding-left: 0px;
+    }
+    .div33 {
+        text-align: center;
+        padding:10px 0 0;
+    }
+    .section33, .section70, .section30, .section50, .div33{
+        width: 100%;
+    }
+    .section50 h2 {
+       text-align: left;
+        padding-right: 0px;
+    }
+    
+}
+
+/*responsive mobile*/
+@media only screen and (max-width:500px){
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 28px;
+    }
+    
+    .section70 {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .section30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section33 a {
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+   
+    .div33 {
+        padding: 25px 20px;
+        text-align: center;
+    }
+}
+/* mobile manu */
+@media only screen and (max-width:370px){
+    .section50 input[type="text"]{
+        margin-right: 0;
+    }
+}
