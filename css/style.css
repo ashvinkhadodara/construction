@@ -70,8 +70,6 @@ body{
     display: inline-block;
     padding: 18px 0px;
     padding-right: 35px;
-    
-    
 }
 #navbar ul {
     margin: 0;
@@ -294,6 +292,8 @@ body{
         width:100%;
         top: 253px;
         padding-left: 0;
+        padding-right: 0;
+
         
     } 
     .burger {
